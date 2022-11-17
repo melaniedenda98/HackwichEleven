@@ -10,20 +10,20 @@ import MapKit
 
 class RestuarantTwo: NSObject, MKAnnotation {
 
-    let restaurantTitleTwo: String
-    let restaurantTypeTwo: String
-    let coordinateTwo: CLLocationCoordinate2D
+    let restaurantTitle:  String
+    let restaurantType: String
+    let coordinate: CLLocationCoordinate2D
     
     init(title:String, type: String, coordinate:CLLocationCoordinate2D) {
-        self.restaurantTitleTwo = title
-        self.restaurantTypeTwo = type
-        self.coordinateTwo = coordinate
+        self.restaurantTitle = title
+        self.restaurantType = type
+        self.coordinate = coordinate
         
         super.init()
     }
         
     var subtitle: String? {
-        return restaurantTitleTwo
+        return restaurantTitle
     }
 }
 
