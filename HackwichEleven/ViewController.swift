@@ -25,6 +25,11 @@ class ViewController: UIViewController {
         
         centerMapOnLocation(location: initialLocation)
         // Do any additional setup after loading the view.
+        
+        //Add first annotation
+        let restaurantOne = Restaurant(title: "Kalapawai", type: "American", coordinate: CLLocationCoordinate2D(latitude: 21.346470, longitude: -158.080098))
+        
+        mapView.addAnnotation(restaurantOne)
     }
     
     // Make that location in the center (Creating a function)
