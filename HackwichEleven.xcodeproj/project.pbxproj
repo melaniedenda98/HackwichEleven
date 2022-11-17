@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F1A5EE12925DFE7006F3076 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1A5EE02925DFE6006F3076 /* Restaurant.swift */; };
 		7F257AE22925D38A0090A090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F257AE12925D38A0090A090 /* AppDelegate.swift */; };
 		7F257AE42925D38A0090A090 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F257AE32925D38A0090A090 /* SceneDelegate.swift */; };
 		7F257AE62925D38A0090A090 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F257AE52925D38A0090A090 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F1A5EE02925DFE6006F3076 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		7F257ADE2925D38A0090A090 /* HackwichEleven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackwichEleven.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F257AE12925D38A0090A090 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F257AE32925D38A0090A090 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				7F257AE12925D38A0090A090 /* AppDelegate.swift */,
 				7F257AE32925D38A0090A090 /* SceneDelegate.swift */,
 				7F257AE52925D38A0090A090 /* ViewController.swift */,
+				7F1A5EE02925DFE6006F3076 /* Restaurant.swift */,
 				7F257AE72925D38A0090A090 /* Main.storyboard */,
 				7F257AEA2925D38C0090A090 /* Assets.xcassets */,
 				7F257AEC2925D38C0090A090 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F1A5EE12925DFE7006F3076 /* Restaurant.swift in Sources */,
 				7F257AE62925D38A0090A090 /* ViewController.swift in Sources */,
 				7F257AE22925D38A0090A090 /* AppDelegate.swift in Sources */,
 				7F257AE42925D38A0090A090 /* SceneDelegate.swift in Sources */,
